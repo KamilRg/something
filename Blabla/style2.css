@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+body {
+    background: url(zg.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+#game{
+    width: 120vh;
+    height: 70vh;
+    border:10px solid black;
+    background-image: url(bg1.jpg) ;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#character {
+  
+    font-size: 100%;
+    position: relative;
+    top: 700px;
+ 
+}
+
+
+
+
+.animate {
+    animation: jump 500ms;
+}
+
+
+@keyframes jump {
+    0% {top: 700px;}
+    35% {top: 640px;}
+    70% {top: 640px;}
+    90% {top: 700px;}
+}
+
+#block{
+    font-size: 50px;
+    position:relative;
+    top: 800px;
+    left: 580px;
+    animation:block 1s infinite linear;
+
+}
+
+@keyframes block {
+    0%{left: 1000px;}
+    100%{left:-80px;}
+}
+
+#btn{
+    height: 80px;
+    width: 380px;
+    position: relative;
+    margin-right: 25%;
+    margin-left: 25%;
+    right:260px;
+    background:linear-gradient(to top, rgb(255, 1, 1), rgb(153, 0, 0), rgb(255, 238, 1));
+    border-radius:40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 2px rgb(255, 0, 0);
+    
+}
+.next{
+    height: 80px;
+    width: 380px;
+    position: relative;
+    margin-right: 25%;
+    margin-left: 25%;
+    left:900px;
+    bottom:400px;
+    background:linear-gradient(to right, rgb(255, 1, 1), rgb(153, 0, 0), rgb(255, 238, 1));
+    font-size: 50px;
+    font-weight: bold;
+    color:purple;
+    text-shadow: 1px 2px black;
+
+}

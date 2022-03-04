@@ -1,0 +1,195 @@
+
+body {
+   
+    background-image: url(tapeta.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.game {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10%;
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    animation: glow1 2s linear infinite;
+    background:linear-gradient(to left, #0084ff, #f50000, #ffe600);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    
+   
+}
+/*BURGERS*/
+ .light2{
+    max-height: 250px;
+    max-width: 200px;
+    width: 180px;
+    height: 180px;
+    float: left;
+    border: 4px solid rgb(158, 158, 158);
+    background:linear-gradient(to right, #ffffff, #646464, #ffffff);
+    border-radius: 40px;
+    
+}
+
+.light2 img{
+    width: 100%;
+    height: 125px;
+    
+}
+.light2:hover{
+    cursor: pointer;
+    
+    background:linear-gradient(180deg, #ff0000, #f52121, #ff7d41);
+}
+#mn{
+    position: absolute;
+    font-size:30px;
+    left:90px;
+    top: 290px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
+}
+#burg{
+    position: absolute;
+    font-size:30px;
+    left:70px;
+    top: 170px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
+}
+.grandis{  
+    width: 180px;
+    height: 180px;
+    float: left;
+    border: 4px solid rgb(158, 158, 158);
+    background:linear-gradient(to right, #ffffff, #646464, #ffffff);
+    border-radius: 40px;
+    
+}
+
+.grandis img{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    
+}
+.grandis:hover{
+    cursor: pointer;
+    
+    background:linear-gradient(180deg, #ff0000, #f52121, #ff7d41);
+}
+#mn1{
+    position: absolute;
+    font-size:30px;
+    left:280px;
+    top: 300px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
+}
+#pizza{
+    position: absolute;
+    font-size:30px;
+    left:280px;
+    top: 270px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
+}
+
+
+.fishlike img{
+    position: relative;
+    width: 100%;
+    height: 125px;
+}
+.fishlike{
+    width: 180px;
+    height: 180px;
+    float: left;
+    border: 4px solid rgb(158, 158, 158);
+    background:linear-gradient(to right, #ffffff, #646464, #ffffff);
+    border-radius: 40px; 
+}
+.fishlike:hover{
+    cursor: pointer;
+    
+    background:linear-gradient(180deg, #ff0000, #f52121, #ff7d41);
+}
+#mn2{
+    position: absolute;
+    font-size:30px;
+    left:470px;
+    top: 300px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
+}
+#fish{
+    position: absolute;
+    font-size:30px;
+    left:470px;
+    top: 270px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
+}
+
+
+
+h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 0 black, 0 2px black, 3px 0 black, 0 2px black;
+    animation: glow 4s linear infinite;
+    /* background:linear-gradient(to right, #ffffff, #646464, #ffffff);  */
+    background:linear-gradient(to right, #0084ff, #f50000, #ffe600);
+    border:4px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+    
+        
+        }
+      
+            @keyframes glow {
+                0% {
+                  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #5700fa, 0 0 20px #ae00ff, 0 0 20px #ff00c8, 0 0 20px #e000fd, 0 0 20px #b700ff;
+                }
+                25% {
+                  box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                }
+                50% {
+                    box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                  }
+                  75% {
+                    box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                  }
+                  100% {
+                    box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                  }}
+
+                  @keyframes glow1 {
+                    0% {
+                      box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(161, 2, 2), 0 0 20px #4500c5, 0 0 20px #be32ff, 0 0 20px #ff00c8, 0 0 20px #e000fd, 0 0 20px #b700ff;
+                    }
+                    25% {
+                      box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                    }
+                    50% {
+                        box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                      }
+                      75% {
+                        box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                      }
+                      100% {
+                        box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+                      }}
+            

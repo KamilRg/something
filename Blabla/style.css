@@ -1,0 +1,76 @@
+/*/projekt,app/*/
+*{
+    margin: 0 auto;
+    
+}
+body {
+
+    background-image: url(tapeta.jpg);
+    background-size: cover;
+}
+
+/*H1*/
+.tema{
+font-size: 60px;
+color: rgb(255, 255, 255);
+text-align: center;
+font-weight: bold;
+text-shadow: 4px 0 black, 0 2px black, 3px 0 black, 0 2px black;
+animation: glow 6s linear infinite;
+background:linear-gradient(to left, #ffffff, #696969, #272727);
+border:3px solid rgb(255, 255, 255);
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px; 
+
+}
+#start{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: absolute;
+    left: 400px;
+    top:850px;
+    text-shadow: 0 1px black;
+    font-weight: bold;
+    border: 3px solid rgb(255, 255, 255);
+    background:linear-gradient(to left, #ffffff, #696969, #272727);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+    animation: glow1 8s linear infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #5700fa, 0 0 20px #ae00ff, 0 0 20px #ff00c8, 0 0 20px #e000fd, 0 0 20px #b700ff;
+  }
+  25% {
+    box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+  }
+  50% {
+      text-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+    }
+    75% {
+      box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+    }
+    100% {
+      text-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+    }}
+
+    @keyframes glow1 {
+      0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #5700fa, 0 0 20px #7100a5, 0 0 20px #000000, 0 0 20px #e000fd, 0 0 20px #b700ff;
+      }
+      25% {
+        box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+      }
+      50% {
+          text-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+        }
+        75% {
+          box-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+        }
+        100% {
+          text-shadow: 0 0 10px #fff, 0 0 10px #ffffff, 0 0 10px #4400ff, 0 0 10px #0059ff, 0 0 10px #2a2ef0, 0 0 10px #0077ff, 0 0 10px #7518df;
+        }}
+    

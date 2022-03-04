@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="sbrd.css">
+</head>
+<body>
+    <div id="app8"></div>
+
+    <script>
+        
+        const SOUNDS =['1.mp3', '2.mp3', '3.mp3', '4.mp3', '5.mp3', '6.mp3',
+'7.mp3', '8.mp3', '9.mp3', '10.mp3','11.mp3','12.mp3','29.mp3', '14.mp3',
+'15.mp3', '16.mp3','17.mp3','18.mp3','19.mp3', '20.mp3','21.mp3'];
+        
+        
+
+      
+
+        
+
+        //view
+        showApp();
+        function showApp() {
+            let html = `<div id="oke">⭐</div>
+            <div id="oke1">⭐</div> <div id="oke2">⭐</div> <div id="oke3">⭐</div><div id="oke4">⭐</div>
+            <div id="oke5">⭐</div><div id="oke6">⭐</div><div id="oke7">⭐</div><h1>DUMBSTEP</h1>`
+            ;
+            let appDiv = document.getElementById('app8');
+            for (let index = 0; index < SOUNDS.length; index++) {
+            
+            html += `
+            <button class="btn${index}" onclick="makeSound(${[index]})"></button>
+           
+            `;
+            }
+            appDiv.innerHTML = html; 
+        }
+        //controller
+        function makeSound(blabla) {
+            const music = new Audio(SOUNDS[blabla]);
+            music.play();
+            
+            
+        }
+
+    </script>
+</body>
+</html>
